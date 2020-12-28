@@ -82,9 +82,14 @@ section{
     text-align: center;
 }
 
-#Blog h3, h4{
+#Blog h2, h3, h4{
     text-align: center;
 }
+
+#Blog h2{
+    padding: 0px 45px;
+}
+
 #Blog .contenedor{
     display: flex;
     justify-content: center;
@@ -155,6 +160,12 @@ footer .contenedor{
     #banner img{
         margin-top: -300px;
     }
+
+    #contacto figure{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 480px){
@@ -195,7 +206,7 @@ footer .contenedor{
     box-sizing: border-box;
     margin: 0;
     margin-top: 50px;
-    padding: 0;
+    padding: 0 45px;
     width: 100%;
     height: 200px;
     align-items: center;
@@ -280,4 +291,51 @@ footer .contenedor{
     height: 60px;
     text-align: center;
     line-height: 60px;
+}
+
+#contacto{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#contacto figure{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#modalidad-texto p{
+    text-align: center;
+    padding: 0px 100px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+#submenu{
+    text-align: center;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+#submenu a{
+    text-decoration: none;
+}
+
+#servicio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#servicio p{
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#servicio img{
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
 }
